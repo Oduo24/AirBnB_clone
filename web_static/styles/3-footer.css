@@ -1,0 +1,22 @@
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-top: 1px solid #CCCCCC;
+	height: 60px;
+	width: 100%;
+}
+
+.footer-bottom {
+	flex-shrink: 0;
+}
+
+.footer-abs {
+	position: absolute;
+	bottom: 0;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 6px;
+}
